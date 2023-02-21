@@ -1,0 +1,27 @@
+{
+  "name": "ucamp-modulo-2",
+  "version": "1.0.0",
+  "description": "node y npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chiles012/ucamp-modulo-2.git"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "apis",
+    "ucamp",
+    "modulo",
+    "2"
+  ],
+  "author": "Christian Axel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chiles012/ucamp-modulo-2/issues"
+  },
+  "homepage": "https://github.com/Chiles012/ucamp-modulo-2#readme"
+}
