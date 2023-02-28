@@ -1,13 +1,10 @@
-var fs = require('fs-extra');
-var request = require('request');
+// Librerias o paquetes
+const fs = require('fs');
+const axios = require('axios');
 
-// Traemos el link desde un archivo txt
-const link = fs.readFileSync('./link.txt', 'utf-8');
+const url = fs.readFileSync('./link.txt', 'utf-8');
 
-// Traer el html de la pagina
-request
-  .get(link)
-  .on('response', function(response) {
-    console.log(response.statusCode) // 200
-    console.log(response.headers['content-type']) // 'image/png'
-  })
+axios.get(url).then((response) => {
+    console.log(response.status);
+    console.log(response.data);
+})
